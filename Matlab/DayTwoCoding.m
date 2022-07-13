@@ -29,3 +29,23 @@ while D1~=6 || D2~=6 %the condition of the while loop ...
 end
 disp(x)
 disp([D1,D2])
+
+%% day 5 of coding
+x = -pi:0.1:pi;
+plot(x,sin(x),'-xb');
+hold on 
+plot(x,cos(x),'--or');
+
+%% 
+l=10; %length of interval
+N=10;%number of steps
+x(1)=0;
+f(1)=0;
+h=l/N;
+
+
+for n=1:N
+    f(n+1)=f(n)+h*(n^2+n+1);
+end
+x=linspace(0,l,N+1);
+plot(x,f);
