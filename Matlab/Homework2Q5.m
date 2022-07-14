@@ -12,3 +12,4 @@ hold on
 plot(t,y,'-r')
 xlabel('time -2pi<t<2pi')
 ylabel('function')
+legend({'x=1+cos(2t)','y=-1+3sin(4t)'},'location','southwest')
