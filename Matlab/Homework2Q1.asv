@@ -18,11 +18,11 @@ disp(Q1b)
 Q1c=x'*B;
 disp(Q1c)
 %-------4)B*y--------%
-%it's a comment so the code can run as it display an error )
+%it's a comment so the code can run)
 %Q1d=B*y;
 %disp(Q1d)
 %----------5)x*A  ----------%
-% (it's a comment so the code can run as it display an error)
+% (it's a comment so the code can run)
  % Q1e=x*A;
  % disp(Q1e)
 
