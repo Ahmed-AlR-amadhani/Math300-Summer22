@@ -20,6 +20,10 @@ D2=0;
 
 x=0;
 
+%%  
+A=[1 2 ;3 4];
+
+ 
 while D1~=6 || D2~=6 %the condition of the while loop ...
     % (it loop will keep on going until the condition is met%...
     %when D1,D2 aren't equal to 6 then it will keep going 
@@ -47,5 +51,5 @@ h=l/N;
 for n=1:N
     f(n+1)=f(n)+h*(n^2+n+1);
 end
-x=linspace(0,l,N);
+x=linspace(0,l,N+1);
 plot(x,f);
